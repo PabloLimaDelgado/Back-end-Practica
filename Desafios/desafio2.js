@@ -1,6 +1,8 @@
-const fs = require('fs')
+//const fs = require('fs')
 
-class  productManager{
+import fs from "fs";
+
+class productManager{
     constructor(path){
         this.path = path
     }
@@ -82,7 +84,7 @@ class  productManager{
 }
 
 
-productManager1 = {
+/*productManager1 = {
     title: "Producto 1",
     descripcion: "Descripcion producto 1",
     price: 1111,
@@ -90,9 +92,9 @@ productManager1 = {
     code: 123,
     stock: 50,
 
-}
+} */
 
-async function test(){
+/*async function test(){
     const product1 = new productManager('Users.json')
     //await product1.createProduct(productManager1)
     //const product = await product1.getUserById(1)
@@ -101,4 +103,7 @@ async function test(){
     //const product = await product1.getProducts()
 }
 
-test()
+test() */
+
+
+export const ProductManager = new productManager("ManagerAPI.json");
