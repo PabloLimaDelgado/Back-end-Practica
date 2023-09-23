@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Galletas",
+    "description": "Galletas marca oreo glaseadas  con vainilla",
+    "code": 1234556,
+    "price": 20.3,
+    "status": true,
+    "stock": 50,
+    "category": "Alimentos"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "firs_name": "Pedrito",
+    "last_name": "Cruz",
+    "email": "lhoyos@gmail.com",
+    "password": "1234"
+  },
+  {
+    "id": 2,
+    "first_name": "Paola",
+    "last_name": "Dorado",
+    "email": "sadsa@gmail.com",
+    "password": "123124",
+    "isAdmin": true
+  }
+]
